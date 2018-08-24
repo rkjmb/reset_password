@@ -13,7 +13,7 @@ app.use(bodyParser.json())
 //app.use(cookieParser('secret'));
 
 app.post('/email',function(req,res){
-    sgMail.setApiKey('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');
+    sgMail.setApiKey('key');
     const msg = {
       to: user.email,
       from: 'noassignment123@gmail.com',
